@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body class="h-screen w-full p-20 flex justify-center items-center">
+    <section class="flex h-full w-full gap-8">
+      <div
+        class="h-full w-full bg-cover bg-no-repeat object-center flex items-end rounded-3xl p-8 hover:cursor-pointer hover:opacity-90 transition-all duration-200 ease-in-out"
+        style="background-image: url(../assets/alps.jpg)"
+        id="card"
+        onclick="openCard(this)"
+      >
+        <h1 class="hidden text-white text-4xl font-medium">Alps</h1>
+      </div>
+      <div
+        class="h-full w-full min-w-[900px] bg-cover bg-no-repeat object-center flex items-end rounded-3xl p-8 hover:cursor-pointer hover:opacity-90 transition-all duration-200 ease-in-out"
+        style="background-image: url(../assets/beach.jpg)"
+        id="card"
+        onclick="openCard(this)"
+      >
+        <h1 class="block text-white text-4xl font-medium">Beach</h1>
+      </div>
+      <div
+        class="h-full w-full bg-cover bg-no-repeat object-center flex items-end rounded-3xl p-8 hover:cursor-pointer hover:opacity-90 transition-all duration-200 ease-in-out"
+        style="background-image: url(../assets/city.jpg)"
+        id="card"
+        onclick="openCard(this)"
+      >
+        <h1 class="hidden text-white text-4xl font-medium">City</h1>
+      </div>
+      <div
+        class="h-full w-full bg-cover bg-no-repeat object-center flex items-end rounded-3xl p-8 hover:cursor-pointer hover:opacity-90 transition-all duration-200 ease-in-out"
+        style="background-image: url(../assets/glacier.jpg)"
+        id="card"
+        onclick="openCard(this)"
+      >
+        <h1 class="hidden text-white text-4xl font-medium">Glacier</h1>
+      </div>
+      <div
+        class="h-full w-full bg-cover bg-no-repeat object-center flex items-end rounded-3xl p-8 hover:cursor-pointer hover:opacity-90 transition-all duration-200 ease-in-out"
+        style="background-image: url(../assets/road.jpg)"
+        id="card"
+        onclick="openCard(this)"
+      >
+        <h1 class="hidden text-white text-4xl font-medium">Road</h1>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
